@@ -30,9 +30,7 @@
     "react-toastify": "^11.0.2",
     "socket.io-client": "^4.7.4",
     "web-vitals": "^2.1.4",
-    "zustand": "^4.5.4"
-  },
-  "devDependencies": {
+    "zustand": "^4.5.4",
     "autoprefixer": "^10.4.20",
     "daisyui": "^4.6.1",
     "postcss": "^8.4.40",
