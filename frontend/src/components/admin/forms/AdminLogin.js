@@ -96,7 +96,7 @@ const AdminLogin = () => {
         // </div>
         <div className="flex flex-col lg:flex-row min-h-screen bg-white">
             {/* Left Section */}
-            <div className="w-full lg:w-1/2 p-6 sm:p-8 lg:p-12 flex flex-col">
+            <div className="w-full lg:w-1/2 p-6 sm:p-8 lg:p-12 flex flex-col sm:my-0 my-6">
             {/* Logo */}
                 <div className="mb-8 lg:mb-20">
                     <div className="flex items-center">
@@ -157,14 +157,14 @@ const AdminLogin = () => {
             </div>
 
             {/* Mobile Sign Up Button - Only shown on smallest screens */}
-            <div className="lg:hidden w-full p-6 bg-white border-t border-gray-200">
+            {/* <div className="lg:hidden w-full p-6 bg-white border-t border-gray-200">
                 <a 
                     href="mailto:kairoslazarte05@gmail.com" 
                     className="w-full bg-emerald-500 text-white py-3 rounded-lg hover:bg-emerald-600 transition-colors"
                 >
                     Let's get in touch!
                 </a>
-            </div>
+            </div> */}
         </div>
     )
 }
