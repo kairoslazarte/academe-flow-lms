@@ -1,7 +1,7 @@
 {
-  "name": "digital-learning-solutions-backend",
+  "name": "academe-flow-backend",
   "version": "1.0.0",
-  "description": "Digital learning solutions web app backend",
+  "description": "academe flow web app backend",
   "main": "server.js",
   "type": "module",
   "scripts": {
