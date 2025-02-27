@@ -15,7 +15,7 @@ export const SocketContextProvider = ({ children }) => {
 
 	useEffect(() => {
 		if (authUser) {
-			const socket = io("https://dhmqc-lms.com", {
+			const socket = io("https://academe-flow-lms.onrender.com", {
 				query: {
 					userId: authUser._id,
 				},
